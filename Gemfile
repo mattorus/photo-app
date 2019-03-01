@@ -5,13 +5,18 @@ ruby '2.6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+# Use for styling
 gem 'jquery-rails'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
-gem 'hirb'
 gem 'font-awesome-rails'
+# Payment management
 gem 'stripe'
+# Image uploader
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog-aws'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
