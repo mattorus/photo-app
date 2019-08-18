@@ -15,7 +15,7 @@ gem 'font-awesome-rails'
 gem 'stripe'
 # Image uploader
 gem 'carrierwave'
-gem 'mini_magick'
+gem 'mini_magick', '>= 4.9.4'
 gem 'fog-aws'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
